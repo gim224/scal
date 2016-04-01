@@ -12,23 +12,23 @@ public class SimpleCaculatorTest {
 		calc.add(10, 20);
 		assertEquals(30, calc.getResult());
 	}
-	@Test
-	public void testSub() {
-		SimpleCalculator calc = new SimpleCalculator();
-		calc.sub(10, 20);
-		assertEquals(-10, calc.getResult());
-	}
-	
-	@Test
-	public void testAdd() {
-		SimpleCalculator calc = new SimpleCalculator();
-		calc.add(10, 20);
-		assertEquals(30, calc.getResult());
-	}
-	@Test
-	public void testInc() {
-		SimpleCalculator calc = new SimpleCalculator();
-		calc.inc(10);
-		assertEquals(10, calc.getResult());
-	}
+//	@Test
+//	public void testSub() {
+//		SimpleCalculator calc = new SimpleCalculator();
+//		calc.sub(10, 20);
+//		assertEquals(-10, calc.getResult());
+//	}
+//	
+//	@Test
+//	public void testAdd() {
+//		SimpleCalculator calc = new SimpleCalculator();
+//		calc.add(10, 20);
+//		assertEquals(30, calc.getResult());
+//	}
+//	@Test
+//	public void testInc() {
+//		SimpleCalculator calc = new SimpleCalculator();
+//		calc.inc(10);
+//		assertEquals(10, calc.getResult());
+//	}
 }
