@@ -12,7 +12,9 @@ public class SimpleCalculator {
 	}
 	
 	public void inc(int d) {
+		if (d>0)
 		res+=d;
+		
 	}
 	public int getResult() {
 		return res;
